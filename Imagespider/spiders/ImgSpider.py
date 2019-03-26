@@ -10,5 +10,6 @@ class ImgspiderSpider(scrapy.Spider):
         item = ImagespiderItem()  # 实例化item
         imgurls = response.css(".post img::attr(src)").extract() # 注意这里是一个集合也就是多张图片
         item['imgurl'] = imgurls
+        self.logger.info(imgurls)
         yield item
         pass
