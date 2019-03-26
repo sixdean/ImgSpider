@@ -89,4 +89,4 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-IMAGES_STORE ='E:\Python\Imagespider\Imagespider\ImageSpider'
+IMAGES_STORE ='E:\Python\Test\ImgSpider'
