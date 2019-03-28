@@ -12,4 +12,6 @@ class ImagespiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     imgurl = scrapy.Field()
+    imgname = scrapy.Field()
+    
     pass
